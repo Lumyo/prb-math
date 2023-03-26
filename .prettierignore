@@ -1,14 +1,14 @@
 # directories
-cache
-lib
-node_modules
-out
+.yarn/
+**/broadcast
+**/cache
+**/lib
+**/out
+**/node_modules
 
 # files
 *.env
 *.log
-.DS_Store
 .pnp.*
-package-lock.json
-pnpm-lock.yaml
-yarn.lock
+yarn-debug.log*
+yarn-error.log*
